@@ -28,6 +28,8 @@ Công thức tính IQR và phát hiện ngoại lai:
     *Lower Bound = Q1 - 1.5 * IQR*
     *Upper Bound = Q3 + 1.5 * IQR*
     Các giá trị nằm ngoài phạm vi [Lower Bound, Upper Bound] được coi là giá trị ngoại lai.
+
+    
   ![rating_trcXL](img/rating_trckhiXL.png)
 
 
