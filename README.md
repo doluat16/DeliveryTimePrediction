@@ -41,11 +41,11 @@ Công thức tính IQR và phát hiện ngoại lai:
 ![alt text](time.png)
 - Số lượng đơn hàng nhiều nhất vào khoảng 20h-21h khi giao thông tắc nghẽn. Điều này có thể là do nhu cầu đặt hàng vào buổi tối sau giờ làm việc.
 Buổi sáng và buổi tối muộn là khoảng thời gian giao thông thấp nhưng vẫn có một lượng đơn hàng nhất định.
-#### Mã hóa dữ liệu
+## Mã hóa dữ liệu
 - Sử dụng mã hóa Ordinal Encoding và One hot Encoding với những đặc trưng khác nhau. 
 ![alt text](mahoa.JPG)
 
-### Xây dựng và huấn luyện mô hình
+## Xây dựng và huấn luyện mô hình
 #### Chia dữ liệu
 Chia dữ liệu thành tập huấn luyện và tập kiểm tra theo tỷ lệ 80:20.
 #### Lựa chọn và huấn luyện mô hình
@@ -60,7 +60,7 @@ Sử dụng các chỉ số đánh giá như MSE, RMSE, MAE, R2 để đánh gi�
 
 ![so sánh dự đoán- thực tế](ss.png)
 - Lưu và thử nghiệm mô hình với các bộ dữ liệu khác nhau
-### Xây dựng giao diện
+## Xây dựng giao diện
 - Khởi tạo mô hình đã được lưu ở phần xây dựng mô hình
 - Tính khoảng cách: Sử dụng API OSRM để tính khoảng cách giữa 2 tọa độ
 - Xử lý và mã hóa dữ liệu đầu vào
