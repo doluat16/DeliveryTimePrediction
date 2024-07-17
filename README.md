@@ -28,8 +28,11 @@ Công thức tính IQR và phát hiện ngoại lai:
     *Lower Bound = Q1 - 1.5 * IQR*
     *Upper Bound = Q3 + 1.5 * IQR*
     Các giá trị nằm ngoài phạm vi [Lower Bound, Upper Bound] được coi là giá trị ngoại lai.
-![rating_trcXL](img/rating_trckhiXL.png)
-![rating sauXL](img/rating_saukhixl.png)
+  ![rating_trcXL](img/rating_trckhiXL.png)
+
+
+  ![rating sauXL](img/rating_saukhixl.png)
+
 
 ![bd phan tan](img/phantan_trc.png)
 - Ta thấy có một lượng thời gian vận chuyển <0, nguyên nhân có thể do khi hệ thống đã điền thiếu Thời gian vận chuyển hoặc Thời gian chuẩn bị món, dẫn đến thời gian vận chuyển bị âm. Do đó, ta sẽ thay thế các giá trị ở những cột âm bằng các cách như: giá trị trung bình, trung vị, xuất hiện nhiều nhất hay giá trị gần 0. Sau khi thử các cách, ta sẽ được biểu đồ phân tán mới như sau.
