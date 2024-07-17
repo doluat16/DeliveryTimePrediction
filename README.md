@@ -54,8 +54,10 @@ Chia dữ liệu thành tập huấn luyện và tập kiểm tra theo tỷ lệ
 - Đánh giá mô hình
 Sử dụng các chỉ số đánh giá như MSE, RMSE, MAE, R2 để đánh giá hiệu suất của mô hình.
 ![độ đo đánh giá](img/kq.JPG)
+
 - So sánh giá trị dự đoán và giá trị thực tế để kiểm tra độ chính xác của mô hình.
-![so sánh ](img/ss1.JPG)
+
+   ![so sánh ](img/ss1.JPG)
 
 
 ![so sánh dự đoán- thực tế](img/ss.png)
