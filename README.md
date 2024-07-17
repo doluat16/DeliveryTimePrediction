@@ -83,7 +83,7 @@ Sử dụng các chỉ số đánh giá như MSE, RMSE, MAE, R2 để đánh gi�
   ![dd2](dd2.JPG)
 
 
-### Kết Luận
+## Kết Luận
 - Kết quả cho thấy rằng mô hình XGBoost đã đạt được hiệu suất tốt trong việc dự đoán thời gian giao hàng. Mặc dù mỗi mô hình đều có ưu điểm và hạn chế riêng
 
 - Thông qua quá trình này, ta đã xác định được các yếu tố quan trọng ảnh hưởng đến thời gian giao hàng và áp dụng các phương pháp phân tích dữ liệu phù hợp để cải thiện hiệu suất dự đoán. Tuy nhiên, vẫn còn nhiều cơ hội để cải thiện mô hình, bao gồm việc tối ưu hóa các tham số, mở rộng phạm vi dữ liệu và thử nghiệm các phương pháp tiên tiến hơn.
